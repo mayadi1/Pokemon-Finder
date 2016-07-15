@@ -26,27 +26,27 @@
                                 </connections>
                             </mapView>
                             <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="K8Z-cC-ZS4">
-                                <rect key="frame" x="10" y="535" width="580" height="300"/>
+                                <rect key="frame" x="10" y="535" width="580" height="50"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="pAQ-Pm-Wzd">
-                                        <rect key="frame" x="0.0" y="0.0" width="580" height="300"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="580" height="50"/>
                                         <subviews>
                                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vUj-bQ-UYi">
-                                                <rect key="frame" x="0.0" y="0.0" width="300" height="300"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
                                                 <state key="normal" image="gps29-512"/>
                                                 <connections>
                                                     <action selector="ZoomToMyLocation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1oB-Hj-Hf8"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2TO-yd-Xem">
-                                                <rect key="frame" x="390" y="0.0" width="50" height="300"/>
+                                                <rect key="frame" x="265" y="0.0" width="50" height="50"/>
                                                 <state key="normal" image="Geo-Plus-icon"/>
                                                 <connections>
                                                     <segue destination="72e-LV-kpT" kind="presentation" identifier="fill" id="P2f-ey-m8j"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Gt-ds-Ngq">
-                                                <rect key="frame" x="530" y="0.0" width="50" height="300"/>
+                                                <rect key="frame" x="530" y="0.0" width="50" height="50"/>
                                                 <state key="normal" image="icon-help-128"/>
                                                 <connections>
                                                     <segue destination="pHj-D5-Drz" kind="presentation" id="H8x-Ba-hTW"/>
@@ -189,7 +189,7 @@
                                     <constraint firstAttribute="height" constant="40" id="YiQ-Am-X0l"/>
                                 </constraints>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <state key="normal" title="Share"/>
+                                <state key="normal" title="Report"/>
                                 <connections>
                                     <action selector="sahreButtonPressed:" destination="72e-LV-kpT" eventType="touchUpInside" id="Vir-fh-siZ"/>
                                 </connections>
@@ -261,7 +261,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yk7-2p-hEy">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yk7-2p-hEy">
                                 <rect key="frame" x="30" y="540" width="540" height="40"/>
                                 <color key="backgroundColor" red="0.0" green="0.51196853939999998" blue="0.60784313729999995" alpha="0.4043372845" colorSpace="calibratedRGB"/>
                                 <constraints>
@@ -271,11 +271,46 @@
                                 <state key="normal" title="Go back"/>
                                 <connections>
                                     <action selector="goBackButtonPressed:" destination="72e-LV-kpT" eventType="touchUpInside" id="F2p-B1-CK5"/>
+                                    <action selector="goBackButtonPressed:" destination="pHj-D5-Drz" eventType="touchUpInside" id="Iwz-8j-yJm"/>
                                     <action selector="goBackButtonPressed:" destination="Xvu-Qp-Gef" eventType="touchUpInside" id="qGX-d0-coW"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Instructions" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Zf-S2-ZgU">
+                                <rect key="frame" x="255" y="82" width="91" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+ Button: Use the add button when you see a monster" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V0L-Ea-S3v">
+                                <rect key="frame" x="92" y="138" width="417" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Location button: Use location button when you lose your position." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9bW-tS-OZJ">
+                                <rect key="frame" x="67" y="185" width="503" height="23"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="23" id="Aah-Fs-L7G"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.51196853939999998" blue="0.60784313729999995" alpha="0.59997306029999997" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="Yk7-2p-hEy" secondAttribute="bottom" constant="20" symbolic="YES" id="0cy-tE-M6z"/>
+                            <constraint firstItem="Yk7-2p-hEy" firstAttribute="leading" secondItem="hfw-bJ-MHJ" secondAttribute="leadingMargin" constant="10" id="9Q4-8E-90f"/>
+                            <constraint firstItem="9Zf-S2-ZgU" firstAttribute="centerX" secondItem="V0L-Ea-S3v" secondAttribute="centerX" id="InR-7V-7Ny"/>
+                            <constraint firstItem="9bW-tS-OZJ" firstAttribute="leading" secondItem="hfw-bJ-MHJ" secondAttribute="leadingMargin" constant="47" id="SyF-cX-1xg"/>
+                            <constraint firstItem="9Zf-S2-ZgU" firstAttribute="top" secondItem="foY-nI-GFw" secondAttribute="bottom" constant="62" id="be5-zk-y2q"/>
+                            <constraint firstItem="9Zf-S2-ZgU" firstAttribute="centerX" secondItem="hfw-bJ-MHJ" secondAttribute="centerX" id="gtf-q4-sXV"/>
+                            <constraint firstItem="9bW-tS-OZJ" firstAttribute="top" secondItem="V0L-Ea-S3v" secondAttribute="bottom" constant="26" id="pRC-Dk-nJz"/>
+                            <constraint firstItem="9bW-tS-OZJ" firstAttribute="trailing" secondItem="Yk7-2p-hEy" secondAttribute="trailing" id="saS-qc-GxR"/>
+                            <constraint firstItem="V0L-Ea-S3v" firstAttribute="leading" secondItem="hfw-bJ-MHJ" secondAttribute="leadingMargin" constant="72" id="tig-DU-CWe"/>
+                            <constraint firstItem="V0L-Ea-S3v" firstAttribute="centerX" secondItem="Yk7-2p-hEy" secondAttribute="centerX" id="wgY-pZ-R8y"/>
+                            <constraint firstItem="V0L-Ea-S3v" firstAttribute="top" secondItem="9Zf-S2-ZgU" secondAttribute="bottom" constant="35" id="zNE-hQ-SNb"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lvW-ke-Oxf" userLabel="First Responder" sceneMemberID="firstResponder"/>

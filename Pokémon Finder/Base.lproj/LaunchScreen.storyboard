@@ -16,12 +16,24 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Poke" translatesAutoresizingMaskIntoConstraints="NO" id="ULG-F1-f3B">
+                                <rect key="frame" x="240" y="240" width="120" height="120"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ULG-F1-f3B" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="Ngz-q7-fcV"/>
+                            <constraint firstItem="ULG-F1-f3B" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="TDH-ad-uDH"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="127" y="428"/>
+            <point key="canvasLocation" x="408" y="364"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Poke" width="120" height="120"/>
+    </resources>
 </document>

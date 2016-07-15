@@ -37,7 +37,7 @@ class AddPokeViewController: UIViewController, UIPickerViewDelegate, UIPickerVie
         if self.founderNameTextField.text == ""{
             self.founderNameTextField.text = "Anonymous"
             let selectedValue = self.pickerView.selectedRowInComponent(0)
-            let tempArray = ["Anonymous", selectedValue, self.passedLat, self.passedLong]
+            let tempArray = ["Anonymous", selectedValue, self.passedLat, self.passedLong,self.data[self.pickerView.selectedRowInComponent(0)]]
             self.ref.childByAutoId().setValue(tempArray)
             
         }else{
