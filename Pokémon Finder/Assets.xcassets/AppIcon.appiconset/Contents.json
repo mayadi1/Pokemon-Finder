@@ -3,55 +3,131 @@
     {
       "size" : "29x29",
       "idiom" : "iphone",
-      "filename" : "256x256-black-white-android-map-marker.png",
+      "filename" : "Screen Shot 2016-07-21 at 7.11.15 PM.png",
       "scale" : "1x"
     },
     {
       "size" : "29x29",
       "idiom" : "iphone",
-      "filename" : "256x256-black-white-android-map-marker-1.png",
+      "filename" : "Screen Shot 2016-07-21 at 7.11.15 PM-1.png",
       "scale" : "2x"
     },
     {
       "size" : "29x29",
       "idiom" : "iphone",
-      "filename" : "256x256-black-white-android-map-marker-2.png",
+      "filename" : "Screen Shot 2016-07-21 at 7.11.15 PM-2.png",
       "scale" : "3x"
     },
     {
       "size" : "40x40",
       "idiom" : "iphone",
-      "filename" : "256x256-black-white-android-map-marker-5.png",
+      "filename" : "Screen Shot 2016-07-21 at 7.11.15 PM-3.png",
       "scale" : "2x"
     },
     {
       "size" : "40x40",
       "idiom" : "iphone",
-      "filename" : "256x256-black-white-android-map-marker-6.png",
+      "filename" : "Screen Shot 2016-07-21 at 7.11.15 PM-4.png",
       "scale" : "3x"
     },
     {
       "size" : "57x57",
       "idiom" : "iphone",
-      "filename" : "256x256-black-white-android-map-marker-7.png",
+      "filename" : "Screen Shot 2016-07-21 at 7.11.15 PM-5.png",
       "scale" : "1x"
     },
     {
       "size" : "57x57",
       "idiom" : "iphone",
-      "filename" : "256x256-black-white-android-map-marker-8.png",
+      "filename" : "Screen Shot 2016-07-21 at 7.11.15 PM-6.png",
       "scale" : "2x"
     },
     {
       "size" : "60x60",
       "idiom" : "iphone",
-      "filename" : "256x256-black-white-android-map-marker-3.png",
+      "filename" : "Screen Shot 2016-07-21 at 7.11.15 PM-7.png",
       "scale" : "2x"
     },
     {
       "size" : "60x60",
       "idiom" : "iphone",
-      "filename" : "256x256-black-white-android-map-marker-4.png",
+      "filename" : "Screen Shot 2016-07-21 at 7.11.15 PM-8.png",
+      "scale" : "3x"
+    },
+    {
+      "size" : "29x29",
+      "idiom" : "ipad",
+      "filename" : "Screen Shot 2016-07-21 at 7.11.15 PM-9.png",
+      "scale" : "1x"
+    },
+    {
+      "size" : "29x29",
+      "idiom" : "ipad",
+      "filename" : "Screen Shot 2016-07-21 at 7.11.15 PM-10.png",
+      "scale" : "2x"
+    },
+    {
+      "size" : "40x40",
+      "idiom" : "ipad",
+      "filename" : "Screen Shot 2016-07-21 at 7.11.15 PM-11.png",
+      "scale" : "1x"
+    },
+    {
+      "size" : "40x40",
+      "idiom" : "ipad",
+      "filename" : "Screen Shot 2016-07-21 at 7.11.15 PM-12.png",
+      "scale" : "2x"
+    },
+    {
+      "size" : "50x50",
+      "idiom" : "ipad",
+      "filename" : "Screen Shot 2016-07-21 at 7.11.15 PM-13.png",
+      "scale" : "1x"
+    },
+    {
+      "size" : "50x50",
+      "idiom" : "ipad",
+      "filename" : "Screen Shot 2016-07-21 at 7.11.15 PM-14.png",
+      "scale" : "2x"
+    },
+    {
+      "size" : "72x72",
+      "idiom" : "ipad",
+      "filename" : "Screen Shot 2016-07-21 at 7.11.15 PM-15.png",
+      "scale" : "1x"
+    },
+    {
+      "size" : "72x72",
+      "idiom" : "ipad",
+      "filename" : "Screen Shot 2016-07-21 at 7.11.15 PM-16.png",
+      "scale" : "2x"
+    },
+    {
+      "size" : "76x76",
+      "idiom" : "ipad",
+      "filename" : "Screen Shot 2016-07-21 at 7.11.15 PM-17.png",
+      "scale" : "1x"
+    },
+    {
+      "size" : "76x76",
+      "idiom" : "ipad",
+      "filename" : "Screen Shot 2016-07-21 at 7.11.15 PM-18.png",
+      "scale" : "2x"
+    },
+    {
+      "size" : "83.5x83.5",
+      "idiom" : "ipad",
+      "filename" : "Screen Shot 2016-07-21 at 7.11.15 PM-19.png",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "car",
+      "size" : "60x60",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "car",
+      "size" : "60x60",
       "scale" : "3x"
     }
   ],

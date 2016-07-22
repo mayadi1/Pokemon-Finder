@@ -71,12 +71,7 @@ class AddPokeViewController: UIViewController, UIPickerViewDelegate, UIPickerVie
         self.imageView.image = UIImage.init(named: "\(row)")
     }
     
-    override func prefersStatusBarHidden() -> Bool {
-        return true
-    }
-    
-    
-    
+
     func textFieldShouldReturn(textField: UITextField) -> Bool {
         
         self.view.endEditing(true)

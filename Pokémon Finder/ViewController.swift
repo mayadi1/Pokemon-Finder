@@ -51,9 +51,20 @@ class ViewController: UIViewController, MKMapViewDelegate {
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         
         if segue.identifier == "fill"{
+            
+            if self.lat == nil || self.long == nil{
+                let alert = UIAlertController(title: "Alert", message: "Pokemon Finder cannot open the page because your device is not connected to the internet.", preferredStyle: .Alert)
+                let okayButton = UIAlertAction(title: "Okay", style: .Cancel, handler: { (UIAlertAction) in
+                    return
+                })
+                alert.addAction(okayButton)
+                self.presentViewController(alert, animated: true, completion: nil)
+            }else{
+            
             let dvc = segue.destinationViewController as! AddPokeViewController
             dvc.passedLat = self.locationManager.location!.coordinate.latitude
             dvc.passedLong = self.locationManager.location!.coordinate.longitude
+            }
         }
         if segue.identifier == "info"{
               let dvc = segue.destinationViewController as! InfoViewController

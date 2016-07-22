@@ -22,6 +22,7 @@ class InfoViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         self.founderName.text = self.passedName
         self.imageView.image = UIImage.init(named: self.passedImage!)
     }

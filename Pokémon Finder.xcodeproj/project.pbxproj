@@ -17,8 +17,7 @@
 		18712E121D3951810057D8C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18712E101D3951810057D8C9 /* LaunchScreen.storyboard */; };
 		18712E1A1D3952AA0057D8C9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18712E191D3952AA0057D8C9 /* GoogleService-Info.plist */; };
 		18712E1C1D3953420057D8C9 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18712E1B1D3953420057D8C9 /* MapKit.framework */; };
-		B0687A32FB2797A015294AF1 /* Pods_Poke_mon_Finder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D84DE8BB1AC46F458A9832B5 /* Pods_Poke_mon_Finder.framework */; };
-		FCFD99A64C8059EFEE2AC993 /* Pods_Poke_mon_F.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E74AE5CEF803DFF703D26B43 /* Pods_Poke_mon_F.framework */; };
+		73041D3C4BB31AE8DEBCA485 /* Pods_Poke_mon_F.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DE8156CD6C36414DF680C40 /* Pods_Poke_mon_F.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,7 +25,7 @@
 		183515A11D39619B001E5441 /* AddPokeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPokeViewController.swift; sourceTree = "<group>"; };
 		183515A51D397F6C001E5441 /* InfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 		183515A71D39811E001E5441 /* HelpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
-		18712E041D3951810057D8C9 /* Pokémon F.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pokémon F.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18712E041D3951810057D8C9 /* PokéFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PokéFinder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18712E071D3951810057D8C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18712E091D3951810057D8C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		18712E0C1D3951810057D8C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Map.storyboard; sourceTree = "<group>"; };
@@ -34,12 +33,9 @@
 		18712E131D3951810057D8C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18712E191D3952AA0057D8C9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		18712E1B1D3953420057D8C9 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		5333CC75E136C2D2A9D695B6 /* Pods-Pokémon Finder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pokémon Finder.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pokémon Finder/Pods-Pokémon Finder.release.xcconfig"; sourceTree = "<group>"; };
-		5EA9E789C67EE1F7A2516D31 /* Pods-Pokémon Finder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pokémon Finder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pokémon Finder/Pods-Pokémon Finder.debug.xcconfig"; sourceTree = "<group>"; };
-		60894AA299E71AB87B17675B /* Pods-Pokémon F.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pokémon F.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pokémon F/Pods-Pokémon F.release.xcconfig"; sourceTree = "<group>"; };
-		9578898DD22EF2760CE14D87 /* Pods-Pokémon F.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pokémon F.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pokémon F/Pods-Pokémon F.debug.xcconfig"; sourceTree = "<group>"; };
-		D84DE8BB1AC46F458A9832B5 /* Pods_Poke_mon_Finder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Poke_mon_Finder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E74AE5CEF803DFF703D26B43 /* Pods_Poke_mon_F.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Poke_mon_F.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C407E0257237B593817ACD7 /* Pods-Pokémon F.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pokémon F.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pokémon F/Pods-Pokémon F.release.xcconfig"; sourceTree = "<group>"; };
+		5DE8156CD6C36414DF680C40 /* Pods_Poke_mon_F.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Poke_mon_F.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA50EA6639BCCC6B3DAE627B /* Pods-Pokémon F.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pokémon F.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pokémon F/Pods-Pokémon F.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,29 +44,37 @@
 			buildActionMask = 2147483647;
 			files = (
 				18712E1C1D3953420057D8C9 /* MapKit.framework in Frameworks */,
-				B0687A32FB2797A015294AF1 /* Pods_Poke_mon_Finder.framework in Frameworks */,
-				FCFD99A64C8059EFEE2AC993 /* Pods_Poke_mon_F.framework in Frameworks */,
+				73041D3C4BB31AE8DEBCA485 /* Pods_Poke_mon_F.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		11A5E19E0E21AF8E8B95722F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BA50EA6639BCCC6B3DAE627B /* Pods-Pokémon F.debug.xcconfig */,
+				4C407E0257237B593817ACD7 /* Pods-Pokémon F.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		18712DFB1D3951810057D8C9 = {
 			isa = PBXGroup;
 			children = (
 				18712E1B1D3953420057D8C9 /* MapKit.framework */,
 				18712E061D3951810057D8C9 /* Pokémon Finder */,
 				18712E051D3951810057D8C9 /* Products */,
-				762C20D6011A1DF6382BFE60 /* Pods */,
-				AC20610803595DEA76F608B6 /* Frameworks */,
+				11A5E19E0E21AF8E8B95722F /* Pods */,
+				3A104B1A0929B57A8B27E8E9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		18712E051D3951810057D8C9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				18712E041D3951810057D8C9 /* Pokémon F.app */,
+				18712E041D3951810057D8C9 /* PokéFinder.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -92,22 +96,10 @@
 			path = "Pokémon Finder";
 			sourceTree = "<group>";
 		};
-		762C20D6011A1DF6382BFE60 /* Pods */ = {
+		3A104B1A0929B57A8B27E8E9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5EA9E789C67EE1F7A2516D31 /* Pods-Pokémon Finder.debug.xcconfig */,
-				5333CC75E136C2D2A9D695B6 /* Pods-Pokémon Finder.release.xcconfig */,
-				9578898DD22EF2760CE14D87 /* Pods-Pokémon F.debug.xcconfig */,
-				60894AA299E71AB87B17675B /* Pods-Pokémon F.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		AC20610803595DEA76F608B6 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				D84DE8BB1AC46F458A9832B5 /* Pods_Poke_mon_Finder.framework */,
-				E74AE5CEF803DFF703D26B43 /* Pods_Poke_mon_F.framework */,
+				5DE8156CD6C36414DF680C40 /* Pods_Poke_mon_F.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -115,9 +107,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		18712E031D3951810057D8C9 /* Pokémon F */ = {
+		18712E031D3951810057D8C9 /* PokéFinder */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 18712E161D3951810057D8C9 /* Build configuration list for PBXNativeTarget "Pokémon F" */;
+			buildConfigurationList = 18712E161D3951810057D8C9 /* Build configuration list for PBXNativeTarget "PokéFinder" */;
 			buildPhases = (
 				8A035B7F3649EB3E5046D41A /* [CP] Check Pods Manifest.lock */,
 				18712E001D3951810057D8C9 /* Sources */,
@@ -130,9 +122,9 @@
 			);
 			dependencies = (
 			);
-			name = "Pokémon F";
+			name = "PokéFinder";
 			productName = "Pokémon Finder";
-			productReference = 18712E041D3951810057D8C9 /* Pokémon F.app */;
+			productReference = 18712E041D3951810057D8C9 /* PokéFinder.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -148,6 +140,11 @@
 					18712E031D3951810057D8C9 = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = 6KKRC5GQMV;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -164,7 +161,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				18712E031D3951810057D8C9 /* Pokémon F */,
+				18712E031D3951810057D8C9 /* PokéFinder */,
 			);
 		};
 /* End PBXProject section */
@@ -351,27 +348,31 @@
 		};
 		18712E171D3951810057D8C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9578898DD22EF2760CE14D87 /* Pods-Pokémon F.debug.xcconfig */;
+			baseConfigurationReference = BA50EA6639BCCC6B3DAE627B /* Pods-Pokémon F.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Pokémon Finder/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ayadios.Poke-mon-Finder";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		18712E181D3951810057D8C9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 60894AA299E71AB87B17675B /* Pods-Pokémon F.release.xcconfig */;
+			baseConfigurationReference = 4C407E0257237B593817ACD7 /* Pods-Pokémon F.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Pokémon Finder/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ayadios.Poke-mon-Finder";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -387,7 +388,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		18712E161D3951810057D8C9 /* Build configuration list for PBXNativeTarget "Pokémon F" */ = {
+		18712E161D3951810057D8C9 /* Build configuration list for PBXNativeTarget "PokéFinder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				18712E171D3951810057D8C9 /* Debug */,
