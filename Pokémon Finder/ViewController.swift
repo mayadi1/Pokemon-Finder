@@ -91,7 +91,7 @@ class ViewController: UIViewController, MKMapViewDelegate {
             point.coordinate.latitude = tempArray[2] as! Double
             point.coordinate.longitude = tempArray[3] as! Double
             point.title = tempArray[4] as? String
-            point.subtitle = "\(tempArray[1])"
+           // point.subtitle = "\(tempArray[1])"
             self.mapView.addAnnotation(point)
             self.mapView.reloadInputViews()
             
@@ -103,26 +103,14 @@ class ViewController: UIViewController, MKMapViewDelegate {
     
     
     func mapView(mapView: MKMapView, viewForAnnotation annotation: MKAnnotation) -> MKAnnotationView? {
-        let identifier = "MyPin"
-        
-        if annotation is MKUserLocation {
+        if annotation.isEqual(mapView.userLocation) {
             return nil
-        }else{
-            
-            let detailButton: UIButton = UIButton(type: UIButtonType.DetailDisclosure)
-            
-            var annotationView = mapView.dequeueReusableAnnotationViewWithIdentifier(identifier)
-            annotationView = MKAnnotationView(annotation: annotation, reuseIdentifier: "pin")
-            annotationView!.canShowCallout = true
-            
-            //image removed
-//            annotationView!.image = UIImage(named: annotation.subtitle!!)
-            
-            annotationView!.rightCalloutAccessoryView = detailButton
-            
-            return annotationView
+        }else {
+            let pin = MKPinAnnotationView(annotation: annotation, reuseIdentifier: nil)
+            pin.canShowCallout = true
+            pin.rightCalloutAccessoryView = UIButton(type: .DetailDisclosure)
+            return pin
         }
-        
     }
     
     

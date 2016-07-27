@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "18712E031D3951810057D8C9"
-               BuildableName = "Poke&#x301;mon F.app"
-               BlueprintName = "Poke&#x301;mon F"
+               BuildableName = "Poke&#x301;Finder.app"
+               BlueprintName = "Poke&#x301;Finder"
                ReferencedContainer = "container:Poke&#x301;mon Finder.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -33,8 +33,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "18712E031D3951810057D8C9"
-            BuildableName = "Poke&#x301;mon F.app"
-            BlueprintName = "Poke&#x301;mon F"
+            BuildableName = "Poke&#x301;Finder.app"
+            BlueprintName = "Poke&#x301;Finder"
             ReferencedContainer = "container:Poke&#x301;mon Finder.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -56,8 +56,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "18712E031D3951810057D8C9"
-            BuildableName = "Poke&#x301;mon F.app"
-            BlueprintName = "Poke&#x301;mon F"
+            BuildableName = "Poke&#x301;Finder.app"
+            BlueprintName = "Poke&#x301;Finder"
             ReferencedContainer = "container:Poke&#x301;mon Finder.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -75,8 +75,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "18712E031D3951810057D8C9"
-            BuildableName = "Poke&#x301;mon F.app"
-            BlueprintName = "Poke&#x301;mon F"
+            BuildableName = "Poke&#x301;Finder.app"
+            BlueprintName = "Poke&#x301;Finder"
             ReferencedContainer = "container:Poke&#x301;mon Finder.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
