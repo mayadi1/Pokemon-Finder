@@ -114,7 +114,9 @@ class ViewController: UIViewController, MKMapViewDelegate {
             var annotationView = mapView.dequeueReusableAnnotationViewWithIdentifier(identifier)
             annotationView = MKAnnotationView(annotation: annotation, reuseIdentifier: "pin")
             annotationView!.canShowCallout = true
-            annotationView!.image = UIImage(named: annotation.subtitle!!)
+            
+            //image removed
+//            annotationView!.image = UIImage(named: annotation.subtitle!!)
             
             annotationView!.rightCalloutAccessoryView = detailButton
             
