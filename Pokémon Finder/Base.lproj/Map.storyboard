@@ -6,10 +6,10 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Delegate-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Poke_mon_F" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Poke_Finder" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -58,10 +58,22 @@
                                     <segue destination="pHj-D5-Drz" kind="presentation" id="H8x-Ba-hTW"/>
                                 </connections>
                             </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XCY-ej-84y" customClass="GADBannerView">
+                                <rect key="frame" x="140" y="275" width="320" height="50"/>
+                                <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="M0M-Jo-PBG"/>
+                                    <constraint firstAttribute="width" constant="320" id="aDs-yL-q2K"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="kXS-eT-dOZ"/>
+                                </connections>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="QTq-Li-d3h" secondAttribute="trailing" id="1Yg-qL-0m1"/>
+                            <constraint firstItem="XCY-ej-84y" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="3Sw-OD-fCQ"/>
                             <constraint firstItem="QTq-Li-d3h" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="7fd-kJ-Wtw"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="2TO-yd-Xem" secondAttribute="bottom" constant="15" id="9QJ-R6-YbF"/>
                             <constraint firstAttribute="trailingMargin" secondItem="1Gt-ds-Ngq" secondAttribute="trailing" constant="5" id="9jk-wi-Mu1"/>
@@ -69,11 +81,13 @@
                             <constraint firstItem="vUj-bQ-UYi" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="5" id="FgE-PJ-tQu"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="vUj-bQ-UYi" secondAttribute="bottom" constant="15" id="Xb9-u9-Hal"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="QTq-Li-d3h" secondAttribute="bottom" id="mfI-rc-OoW"/>
+                            <constraint firstItem="XCY-ej-84y" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="vTH-Q2-m4o"/>
                             <constraint firstItem="2TO-yd-Xem" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xxj-eD-FuS"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="1Gt-ds-Ngq" secondAttribute="bottom" constant="15" id="yTY-Mh-yHd"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="bannerView" destination="XCY-ej-84y" id="Cep-g6-03p"/>
                         <outlet property="mapView" destination="QTq-Li-d3h" id="SRj-o4-LwA"/>
                         <segue destination="Xvu-Qp-Gef" kind="presentation" identifier="info" id="JO0-CQ-d5F"/>
                     </connections>
@@ -85,7 +99,7 @@
         <!--Info View Controller-->
         <scene sceneID="Nia-Ol-nMJ">
             <objects>
-                <viewController id="Xvu-Qp-Gef" customClass="InfoViewController" customModule="Poke_mon_F" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Xvu-Qp-Gef" customClass="InfoViewController" customModule="Poke_Finder" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="APs-MA-lbK"/>
                         <viewControllerLayoutGuide type="bottom" id="qc2-1W-uxx"/>
@@ -166,7 +180,7 @@
         <!--Add Poke View Controller-->
         <scene sceneID="C8k-j7-RnK">
             <objects>
-                <viewController id="72e-LV-kpT" customClass="AddPokeViewController" customModule="Poke_mon_F" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="72e-LV-kpT" customClass="AddPokeViewController" customModule="Poke_Finder" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="DsQ-Nl-Zhu"/>
                         <viewControllerLayoutGuide type="bottom" id="8bh-qP-5o1"/>
@@ -257,7 +271,7 @@
         <!--Help View Controller-->
         <scene sceneID="oF8-p6-McC">
             <objects>
-                <viewController id="pHj-D5-Drz" customClass="HelpViewController" customModule="Poke_mon_F" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="pHj-D5-Drz" customClass="HelpViewController" customModule="Poke_Finder" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="foY-nI-GFw"/>
                         <viewControllerLayoutGuide type="bottom" id="ZtM-Hy-maO"/>
@@ -282,14 +296,14 @@
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Instructions" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Zf-S2-ZgU">
                                 <rect key="frame" x="255" y="82" width="91" height="21"/>
-                                <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="VWF-kH-0ra">
                                 <rect key="frame" x="157" y="200" width="286" height="90"/>
-                                <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="90" id="99x-CB-Sbj"/>
                                     <constraint firstAttribute="width" constant="286" id="rvK-ap-ffy"/>

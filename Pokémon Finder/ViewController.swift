@@ -9,8 +9,10 @@
 import UIKit
 import MapKit
 import Firebase
+import GoogleMobileAds
 
-class ViewController: UIViewController, MKMapViewDelegate {
+class ViewController: UIViewController, MKMapViewDelegate, GADBannerViewDelegate {
+    
     
     @IBOutlet weak var mapView: MKMapView!
     let locationManager = CLLocationManager()
@@ -21,12 +23,25 @@ class ViewController: UIViewController, MKMapViewDelegate {
     var lat: Double?
     var long: Double?
     
+    @IBOutlet weak var bannerView: GADBannerView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
+        //ADMob Config
+        
+        bannerView.adUnitID = "ca-app-pub-8672557971515294/8290488968"
+        bannerView.rootViewController = self
+        bannerView.loadRequest(GADRequest())
+            
+            
         self.get = 1
         
         locationManager.requestWhenInUseAuthorization()
+        
+        
+   
         
         self.retrievePok()
     }

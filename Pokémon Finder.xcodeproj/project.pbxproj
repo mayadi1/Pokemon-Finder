@@ -17,6 +17,20 @@
 		18712E121D3951810057D8C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18712E101D3951810057D8C9 /* LaunchScreen.storyboard */; };
 		18712E1A1D3952AA0057D8C9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18712E191D3952AA0057D8C9 /* GoogleService-Info.plist */; };
 		18712E1C1D3953420057D8C9 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18712E1B1D3953420057D8C9 /* MapKit.framework */; };
+		18AECE1D1D4EF9C5001A0A56 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18AECE1B1D4EF9C5001A0A56 /* GoogleMobileAds.framework */; };
+		18AECE1E1D4EF9C5001A0A56 /* Mediation Adapters in Resources */ = {isa = PBXBuildFile; fileRef = 18AECE1C1D4EF9C5001A0A56 /* Mediation Adapters */; };
+		18AECE201D4EFA34001A0A56 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18AECE1F1D4EFA34001A0A56 /* AdSupport.framework */; };
+		18AECE221D4EFA3C001A0A56 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18AECE211D4EFA3C001A0A56 /* AudioToolbox.framework */; };
+		18AECE241D4EFA41001A0A56 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18AECE231D4EFA41001A0A56 /* AVFoundation.framework */; };
+		18AECE281D4EFA4D001A0A56 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18AECE251D4EFA4D001A0A56 /* CoreGraphics.framework */; };
+		18AECE291D4EFA4D001A0A56 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18AECE261D4EFA4D001A0A56 /* CoreMedia.framework */; };
+		18AECE2A1D4EFA4D001A0A56 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18AECE271D4EFA4D001A0A56 /* CoreTelephony.framework */; };
+		18AECE2D1D4EFA53001A0A56 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18AECE2B1D4EFA53001A0A56 /* EventKit.framework */; };
+		18AECE2E1D4EFA53001A0A56 /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18AECE2C1D4EFA53001A0A56 /* EventKitUI.framework */; };
+		18AECE301D4EFA61001A0A56 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18AECE2F1D4EFA61001A0A56 /* MediaPlayer.framework */; };
+		18AECE321D4EFA69001A0A56 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18AECE311D4EFA69001A0A56 /* MessageUI.framework */; };
+		18AECE341D4EFA6F001A0A56 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18AECE331D4EFA6F001A0A56 /* StoreKit.framework */; };
+		18AECE361D4EFA7D001A0A56 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18AECE351D4EFA7D001A0A56 /* SystemConfiguration.framework */; };
 		73041D3C4BB31AE8DEBCA485 /* Pods_Poke_mon_F.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DE8156CD6C36414DF680C40 /* Pods_Poke_mon_F.framework */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +47,20 @@
 		18712E131D3951810057D8C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18712E191D3952AA0057D8C9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		18712E1B1D3953420057D8C9 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		18AECE1B1D4EF9C5001A0A56 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+		18AECE1C1D4EF9C5001A0A56 /* Mediation Adapters */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Mediation Adapters"; sourceTree = "<group>"; };
+		18AECE1F1D4EFA34001A0A56 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		18AECE211D4EFA3C001A0A56 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		18AECE231D4EFA41001A0A56 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		18AECE251D4EFA4D001A0A56 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		18AECE261D4EFA4D001A0A56 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		18AECE271D4EFA4D001A0A56 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		18AECE2B1D4EFA53001A0A56 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		18AECE2C1D4EFA53001A0A56 /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
+		18AECE2F1D4EFA61001A0A56 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		18AECE311D4EFA69001A0A56 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		18AECE331D4EFA6F001A0A56 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		18AECE351D4EFA7D001A0A56 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		4C407E0257237B593817ACD7 /* Pods-Pokémon F.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pokémon F.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pokémon F/Pods-Pokémon F.release.xcconfig"; sourceTree = "<group>"; };
 		5DE8156CD6C36414DF680C40 /* Pods_Poke_mon_F.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Poke_mon_F.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA50EA6639BCCC6B3DAE627B /* Pods-Pokémon F.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pokémon F.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pokémon F/Pods-Pokémon F.debug.xcconfig"; sourceTree = "<group>"; };
@@ -43,6 +71,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18AECE361D4EFA7D001A0A56 /* SystemConfiguration.framework in Frameworks */,
+				18AECE341D4EFA6F001A0A56 /* StoreKit.framework in Frameworks */,
+				18AECE321D4EFA69001A0A56 /* MessageUI.framework in Frameworks */,
+				18AECE301D4EFA61001A0A56 /* MediaPlayer.framework in Frameworks */,
+				18AECE2D1D4EFA53001A0A56 /* EventKit.framework in Frameworks */,
+				18AECE2E1D4EFA53001A0A56 /* EventKitUI.framework in Frameworks */,
+				18AECE281D4EFA4D001A0A56 /* CoreGraphics.framework in Frameworks */,
+				18AECE291D4EFA4D001A0A56 /* CoreMedia.framework in Frameworks */,
+				18AECE2A1D4EFA4D001A0A56 /* CoreTelephony.framework in Frameworks */,
+				18AECE241D4EFA41001A0A56 /* AVFoundation.framework in Frameworks */,
+				18AECE221D4EFA3C001A0A56 /* AudioToolbox.framework in Frameworks */,
+				18AECE201D4EFA34001A0A56 /* AdSupport.framework in Frameworks */,
+				18AECE1D1D4EF9C5001A0A56 /* GoogleMobileAds.framework in Frameworks */,
 				18712E1C1D3953420057D8C9 /* MapKit.framework in Frameworks */,
 				73041D3C4BB31AE8DEBCA485 /* Pods_Poke_mon_F.framework in Frameworks */,
 			);
@@ -82,6 +123,7 @@
 		18712E061D3951810057D8C9 /* Pokémon Finder */ = {
 			isa = PBXGroup;
 			children = (
+				18AECE1A1D4EF990001A0A56 /* AdMob */,
 				18712E071D3951810057D8C9 /* AppDelegate.swift */,
 				18712E091D3951810057D8C9 /* ViewController.swift */,
 				183515A51D397F6C001E5441 /* InfoViewController.swift */,
@@ -96,9 +138,30 @@
 			path = "Pokémon Finder";
 			sourceTree = "<group>";
 		};
+		18AECE1A1D4EF990001A0A56 /* AdMob */ = {
+			isa = PBXGroup;
+			children = (
+				18AECE1B1D4EF9C5001A0A56 /* GoogleMobileAds.framework */,
+				18AECE1C1D4EF9C5001A0A56 /* Mediation Adapters */,
+			);
+			name = AdMob;
+			sourceTree = "<group>";
+		};
 		3A104B1A0929B57A8B27E8E9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				18AECE351D4EFA7D001A0A56 /* SystemConfiguration.framework */,
+				18AECE331D4EFA6F001A0A56 /* StoreKit.framework */,
+				18AECE311D4EFA69001A0A56 /* MessageUI.framework */,
+				18AECE2F1D4EFA61001A0A56 /* MediaPlayer.framework */,
+				18AECE2B1D4EFA53001A0A56 /* EventKit.framework */,
+				18AECE2C1D4EFA53001A0A56 /* EventKitUI.framework */,
+				18AECE251D4EFA4D001A0A56 /* CoreGraphics.framework */,
+				18AECE261D4EFA4D001A0A56 /* CoreMedia.framework */,
+				18AECE271D4EFA4D001A0A56 /* CoreTelephony.framework */,
+				18AECE231D4EFA41001A0A56 /* AVFoundation.framework */,
+				18AECE211D4EFA3C001A0A56 /* AudioToolbox.framework */,
+				18AECE1F1D4EFA34001A0A56 /* AdSupport.framework */,
 				5DE8156CD6C36414DF680C40 /* Pods_Poke_mon_F.framework */,
 			);
 			name = Frameworks;
@@ -139,6 +202,7 @@
 				TargetAttributes = {
 					18712E031D3951810057D8C9 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 6KKRC5GQMV;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 0;
@@ -173,6 +237,7 @@
 				18712E121D3951810057D8C9 /* LaunchScreen.storyboard in Resources */,
 				18712E1A1D3952AA0057D8C9 /* GoogleService-Info.plist in Resources */,
 				183515A01D395AC6001E5441 /* Assets.xcassets in Resources */,
+				18AECE1E1D4EF9C5001A0A56 /* Mediation Adapters in Resources */,
 				18712E0D1D3951810057D8C9 /* Map.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -351,11 +416,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pokémon",
+					Finder,
+				);
 				INFOPLIST_FILE = "Pokémon Finder/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ayadios.Poke-mon-Finder";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -366,11 +438,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pokémon",
+					Finder,
+				);
 				INFOPLIST_FILE = "Pokémon Finder/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ayadios.Poke-mon-Finder";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
