@@ -15,7 +15,6 @@
 		18712E0A1D3951810057D8C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18712E091D3951810057D8C9 /* ViewController.swift */; };
 		18712E0D1D3951810057D8C9 /* Map.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18712E0B1D3951810057D8C9 /* Map.storyboard */; };
 		18712E121D3951810057D8C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18712E101D3951810057D8C9 /* LaunchScreen.storyboard */; };
-		18712E1A1D3952AA0057D8C9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18712E191D3952AA0057D8C9 /* GoogleService-Info.plist */; };
 		18712E1C1D3953420057D8C9 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18712E1B1D3953420057D8C9 /* MapKit.framework */; };
 		18AECE1D1D4EF9C5001A0A56 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18AECE1B1D4EF9C5001A0A56 /* GoogleMobileAds.framework */; };
 		18AECE1E1D4EF9C5001A0A56 /* Mediation Adapters in Resources */ = {isa = PBXBuildFile; fileRef = 18AECE1C1D4EF9C5001A0A56 /* Mediation Adapters */; };
@@ -31,6 +30,7 @@
 		18AECE321D4EFA69001A0A56 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18AECE311D4EFA69001A0A56 /* MessageUI.framework */; };
 		18AECE341D4EFA6F001A0A56 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18AECE331D4EFA6F001A0A56 /* StoreKit.framework */; };
 		18AECE361D4EFA7D001A0A56 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18AECE351D4EFA7D001A0A56 /* SystemConfiguration.framework */; };
+		18AECE381D4F06FF001A0A56 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18AECE371D4F06FF001A0A56 /* GoogleService-Info.plist */; };
 		73041D3C4BB31AE8DEBCA485 /* Pods_Poke_mon_F.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DE8156CD6C36414DF680C40 /* Pods_Poke_mon_F.framework */; };
 /* End PBXBuildFile section */
 
@@ -45,7 +45,6 @@
 		18712E0C1D3951810057D8C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Map.storyboard; sourceTree = "<group>"; };
 		18712E111D3951810057D8C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18712E131D3951810057D8C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		18712E191D3952AA0057D8C9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		18712E1B1D3953420057D8C9 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		18AECE1B1D4EF9C5001A0A56 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
 		18AECE1C1D4EF9C5001A0A56 /* Mediation Adapters */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Mediation Adapters"; sourceTree = "<group>"; };
@@ -61,6 +60,7 @@
 		18AECE311D4EFA69001A0A56 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		18AECE331D4EFA6F001A0A56 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		18AECE351D4EFA7D001A0A56 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		18AECE371D4F06FF001A0A56 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		4C407E0257237B593817ACD7 /* Pods-Pokémon F.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pokémon F.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pokémon F/Pods-Pokémon F.release.xcconfig"; sourceTree = "<group>"; };
 		5DE8156CD6C36414DF680C40 /* Pods_Poke_mon_F.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Poke_mon_F.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA50EA6639BCCC6B3DAE627B /* Pods-Pokémon F.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pokémon F.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pokémon F/Pods-Pokémon F.debug.xcconfig"; sourceTree = "<group>"; };
@@ -131,7 +131,7 @@
 				183515A71D39811E001E5441 /* HelpViewController.swift */,
 				183515A11D39619B001E5441 /* AddPokeViewController.swift */,
 				18712E101D3951810057D8C9 /* LaunchScreen.storyboard */,
-				18712E191D3952AA0057D8C9 /* GoogleService-Info.plist */,
+				18AECE371D4F06FF001A0A56 /* GoogleService-Info.plist */,
 				18712E131D3951810057D8C9 /* Info.plist */,
 				1835159F1D395AC6001E5441 /* Assets.xcassets */,
 			);
@@ -235,8 +235,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				18712E121D3951810057D8C9 /* LaunchScreen.storyboard in Resources */,
-				18712E1A1D3952AA0057D8C9 /* GoogleService-Info.plist in Resources */,
 				183515A01D395AC6001E5441 /* Assets.xcassets in Resources */,
+				18AECE381D4F06FF001A0A56 /* GoogleService-Info.plist in Resources */,
 				18AECE1E1D4EF9C5001A0A56 /* Mediation Adapters in Resources */,
 				18712E0D1D3951810057D8C9 /* Map.storyboard in Resources */,
 			);
