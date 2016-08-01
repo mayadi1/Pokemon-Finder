@@ -52,7 +52,7 @@ class ViewController: UIViewController, MKMapViewDelegate {
         
         if segue.identifier == "fill"{
             
-            if self.lat == nil || self.long == nil{
+            if self.locationManager.location?.coordinate.latitude == nil || self.locationManager.location?.coordinate.longitude == nil{
                 let alert = UIAlertController(title: "Alert", message: "Pokemon Finder cannot open the page because your device is not connected to the internet.", preferredStyle: .Alert)
                 let okayButton = UIAlertAction(title: "Okay", style: .Cancel, handler: { (UIAlertAction) in
                     return
@@ -91,7 +91,7 @@ class ViewController: UIViewController, MKMapViewDelegate {
             point.coordinate.latitude = tempArray[2] as! Double
             point.coordinate.longitude = tempArray[3] as! Double
             point.title = tempArray[4] as? String
-           // point.subtitle = "\(tempArray[1])"
+            point.subtitle = "\(tempArray[1])"
             self.mapView.addAnnotation(point)
             self.mapView.reloadInputViews()
             
