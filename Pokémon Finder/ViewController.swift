@@ -31,11 +31,12 @@ class ViewController: UIViewController, MKMapViewDelegate, GADBannerViewDelegate
         
         //ADMob Config
         
+        let request = GADRequest()
         bannerView.adUnitID = "ca-app-pub-8672557971515294/8290488968"
         bannerView.rootViewController = self
-        bannerView.loadRequest(GADRequest())
+        bannerView.loadRequest(request)
             
-            
+
         self.get = 1
         
         locationManager.requestWhenInUseAuthorization()
